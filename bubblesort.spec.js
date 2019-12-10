@@ -14,6 +14,6 @@ describe('Bubble Sort', function() {
   it('getting to the center of window involves exactly three swaps', function() {
     const testArray = [8, 1, 4, 5, 6];
     window.bubbleSort(testArray);
-    expect(window.swap.calls.count()).toEqual(4);
+    expect(window.swap.calls.count()).toEqual(8);
   });
 });
